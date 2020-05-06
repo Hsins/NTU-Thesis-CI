@@ -1,0 +1,53 @@
+% !TEX TS-program = xelatex
+% !BIB program = bibtex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[
+  twoside, openright,
+  degree    = master,   % degree = master | doctor
+  language  = chinese,  % language = chinese | english
+  fontset   = template  % fontset = default | template | system | overleaf
+]{ntuthesis}
+
+\input{ntusetup}
+
+\begin{document}
+
+\WaterMark{0.25}{figures/seal.png}
+\InsertDOI{10.5566/NTU2018XXXXX}
+
+% [封面與口委會審定書]
+%
+\makecover
+\MakeCertification
+
+\setstretch{1.6}
+
+\input{contents/acknowledgement}    % 致謝
+\input{contents/abstract}           % 摘要
+
+\MakeTOC
+
+\input{contents/denotation}       % 符號列表
+
+% 論文章節
+\mainmatter
+
+\input{contents/chapter-01}
+\input{contents/chapter-02}
+\input{contents/chapter-03}
+
+% 參考文獻
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{參考文獻}
+\bibliographystyle{abbrv}
+\bibliography{references/references}
+
+% 附錄
+% \begin{Appendix}
+%   \input{data/appendix01}
+% \end{Appendix}
+
+\end{document}
