@@ -1,0 +1,33 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.5.6)  8 MAY 2020 12:03
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/hsins/WorkSpace/NTU-Thesis-CI/main
+(/home/hsins/WorkSpace/NTU-Thesis-CI/main.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06>
+
+! LaTeX Error: File `ntuthesis.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+/home/hsins/WorkSpace/NTU-Thesis-CI/main.tex:14: Emergency stop.
+<read *> 
+         
+l.14 ^^M
+        
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 22 strings out of 479488
+ 469 string characters out of 5885585
+ 242575 words of memory out of 5000000
+ 17572 multiletter control sequences out of 15000+600000
+ 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 14i,0n,17p,129b,10s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
